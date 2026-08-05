@@ -1,0 +1,36 @@
+{
+  "name": "agent-skills",
+  "version": "0.1.0",
+  "description": "One command to give any AI coding agent battle-tested skills. Works with Claude Code, Cursor, Windsurf, and AGENTS.md.",
+  "type": "module",
+  "bin": {
+    "agent-skills": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/cli.js",
+    "list": "node bin/cli.js list"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "claude",
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "agents-md",
+    "skills",
+    "prompt",
+    "coding-agent"
+  ],
+  "author": "Eesh Saxena",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
